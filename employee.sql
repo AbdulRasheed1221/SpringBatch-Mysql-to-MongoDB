@@ -1,0 +1,10 @@
+
+DROP TABLE IF EXISTS `employee`;
+
+CREATE TABLE `employee` (
+  `ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `NAME` varchar(100) NOT NULL,
+  `AGE` int(10) NOT NULL,
+  `SALARY` int(10) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
